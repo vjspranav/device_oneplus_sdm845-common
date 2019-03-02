@@ -114,8 +114,8 @@ PRODUCT_PACKAGES += \
     power.qcom:64
 
 # Telephony
-PRODUCT_PACKAGES += \
-    telephony-ext
+PRODUCT_PACKAGES +=  telephony-ext
+PRODUCT_BOOT_JARS += telephony-ext
 
 <<<<<<< HEAD
 PRODUCT_BOOT_JARS += \
@@ -134,7 +134,6 @@ PRODUCT_COPY_FILES += \
 # QTI
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/qti_whitelist.xml:system/etc/sysconfig/qti_whitelist.xml
->>>>>>> b3bf4aa... sdm845-common: add OnePlus camera
 
 # tri-state-key
 PRODUCT_PACKAGES += \
