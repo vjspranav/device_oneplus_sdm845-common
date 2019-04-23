@@ -117,10 +117,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES +=  telephony-ext
 PRODUCT_BOOT_JARS += telephony-ext
 
-<<<<<<< HEAD
-PRODUCT_BOOT_JARS += \
-    telephony-ext
-=======
 # Prebuilts
 PRODUCT_PACKAGES += \
     OnePlusCamera \
