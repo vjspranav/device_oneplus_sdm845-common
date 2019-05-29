@@ -66,7 +66,8 @@ PRODUCT_PACKAGES_DEBUG += \
 PRODUCT_PACKAGES += \
     init.qcom.rc \
     init.recovery.qcom.rc \
-    init.target.rc
+    init.target.rc \
+    init.swap.sh
 
 # Display
 PRODUCT_PACKAGES += \
