@@ -24,6 +24,7 @@ if [[ ! -d "${MY_DIR}" ]]; then MY_DIR="${PWD}"; fi
 LINEAGE_ROOT="${MY_DIR}/../../.."
 
 HELPER="${LINEAGE_ROOT}/vendor/lineage/build/tools/extract_utils.sh"
+
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1
@@ -34,7 +35,7 @@ source "${HELPER}"
 setup_vendor "${DEVICE_COMMON}" "${VENDOR}" "${LINEAGE_ROOT}" true
 
 # Copyright headers and guards
-write_headers "enchilada"
+write_headers "enchilada fajita"
 
 # The standard common blobs
 write_makefiles "${MY_DIR}/proprietary-files.txt" true

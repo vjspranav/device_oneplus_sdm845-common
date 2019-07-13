@@ -26,6 +26,10 @@ PRODUCT_PACKAGES += \
     NoCutoutOverlay \
     NotchBarKiller
 
+PRODUCT_PACKAGES += \
+    NoCutoutOverlay \
+    NotchBarKiller
+
 # Properties
 -include $(LOCAL_PATH)/system_prop.mk
 

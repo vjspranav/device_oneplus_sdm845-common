@@ -23,11 +23,11 @@
     <string name="notification_slider_middle_position">중간</string>
     <string name="notification_slider_bottom_position">아래쪽</string>
     <string name="notification_slider_mode_total_silence">모두 음소거</string>
-    <string name="notification_slider_mode_alarms_only">알람만</string>
     <string name="notification_slider_mode_priority_only">중요 알림만</string>
     <string name="notification_slider_mode_silent">무음</string>
     <string name="notification_slider_mode_vibrate">진동</string>
     <string name="notification_slider_mode_none">기본</string>
+    <string name="notification_slider_torch">손전등</string>
     <string name="buttons_dashboard_summary">경고 슬라이더 설정</string>
     <string name="category_vibrator">진동</string>
     <string name="vib_strength_title_head">시스템 세기</string>

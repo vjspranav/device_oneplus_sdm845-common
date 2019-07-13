@@ -23,11 +23,11 @@
     <string name="notification_slider_middle_position">Au milieu</string>
     <string name="notification_slider_bottom_position">En bas</string>
     <string name="notification_slider_mode_total_silence">Silence total</string>
-    <string name="notification_slider_mode_alarms_only">Alarmes uniquement</string>
     <string name="notification_slider_mode_priority_only">Priorité uniquement</string>
     <string name="notification_slider_mode_silent">Silencieux</string>
     <string name="notification_slider_mode_vibrate">Vibrer</string>
     <string name="notification_slider_mode_none">Normal</string>
+    <string name="notification_slider_torch">Lampe Torche</string>
     <string name="buttons_dashboard_summary">Paramètres du curseur des alertes</string>
     <string name="category_vibrator">Vibreur</string>
     <string name="vib_strength_title_head">Puissance système</string>

@@ -23,11 +23,11 @@
     <string name="notification_slider_middle_position">Vị trí chính giữa</string>
     <string name="notification_slider_bottom_position">Vị trí dưới cùng</string>
     <string name="notification_slider_mode_total_silence">Hoàn toàn tắt tiếng</string>
-    <string name="notification_slider_mode_alarms_only">Chỉ báo thức</string>
     <string name="notification_slider_mode_priority_only">Chỉ ưu tiên</string>
     <string name="notification_slider_mode_silent">Im lặng</string>
     <string name="notification_slider_mode_vibrate">Rung</string>
     <string name="notification_slider_mode_none">Bình thường</string>
+    <string name="notification_slider_torch">Đèn pin</string>
     <string name="buttons_dashboard_summary">Cài đặt Alert Slider</string>
     <string name="category_vibrator">Rung</string>
     <string name="vib_strength_title_head">Cường độ rung: Hệ thống</string>
