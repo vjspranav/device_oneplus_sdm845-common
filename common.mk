@@ -33,6 +33,8 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 29
 
+PRODUCT_PROPERTY_OVERRIDES += ro.control_privapp_permissions=log
+
 # Permissions
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.telephony.ims.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/android.hardware.telephony.ims.xml \
