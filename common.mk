@@ -1,3 +1,4 @@
+
 #
 # Copyright (C) 2018 The LineageOS Project
 #
@@ -33,7 +34,7 @@ PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 # VNDK
 PRODUCT_TARGET_VNDK_VERSION := 29
 
-PRODUCT_PROPERTY_OVERRIDES += ro.control_privapp_permissions=log
+#PRODUCT_PROPERTY_OVERRIDES += ro.control_privapp_permissions=log
 
 # Permissions
 PRODUCT_COPY_FILES += \
@@ -180,3 +181,9 @@ PRODUCT_BOOT_JARS += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/privapp-permissions-wfd.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-wfd.xml
+
+# Priv-App permission whitelist
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-sdm845-common.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-sdm845-common.xml
+
+
