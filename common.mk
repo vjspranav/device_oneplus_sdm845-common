@@ -134,8 +134,8 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.oneplus_sdm845
 
 # LiveDisplay
-PRODUCT_PACKAGES += \
-    lineage.livedisplay@2.0-service.oneplus_sdm845
+#PRODUCT_PACKAGES += \
+#    lineage.livedisplay@2.0-service.oneplus_sdm845
 
 # Media
 PRODUCT_COPY_FILES += \
@@ -180,6 +180,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_BOOT_JARS += \
     telephony-ext
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-ims.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/privapp-permissions-ims.xml
 
 # Touch
 PRODUCT_PACKAGES += \
